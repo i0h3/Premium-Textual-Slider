@@ -332,7 +332,7 @@ class Slider(Container): #{
             self.posVal + (
                 self.step if ( self.density < 100000 ) else (
                     self.step * 5 if ( self.density < 500000 ) else (
-                        self.step * 5 * 10**(int(log10(self.density)) + round(log10(self.step)) + 3) if ((check <= -5)) else 2
+                        self.step * 5 * (10**(int(log10(self.density)) + round(log10(self.step)) + 3) if ((check <= -5)) else 2)
                     )                
                 )
             ) * (1 if event.ctrl else (400 if self.density > 100000 else 5)),
@@ -349,7 +349,7 @@ class Slider(Container): #{
             self.posVal - (
                 self.step if ( self.density < 100000 ) else (
                     self.step * 5 if ( self.density < 500000 ) else (
-                        self.step * 5 * 10**(int(log10(self.density)) + round(log10(self.step)) + 3) if ((check <= -5)) else 2
+                        self.step * 5 * (10**(int(log10(self.density)) + round(log10(self.step)) + 3) if ((check <= -5)) else 2)
                     )                
                 )
             ) * (1 if event.ctrl else (400 if self.density > 100000 else 5)),
