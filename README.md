@@ -34,6 +34,9 @@ The Community Edition supports sufficiently high ranges for standard usage and p
 ## Demos
 
 
+https://github.com/user-attachments/assets/b08e4ee2-405e-4043-a16a-1e06f2ccd008
+
+
 https://github.com/user-attachments/assets/ca754781-fc88-4950-ac98-9b3a6839a23b
 
 
