@@ -10,7 +10,7 @@ By downloading, installing, or using the Software, You agree to be bound by the 
 ## 1. Grant of License
 Subject to the terms of this Agreement, the Author grants You a non‑exclusive, non‑transferable, non‑sublicensable license to:
 
-use the Software in one commercial or proprietary application,
+use the Software, for commercial contexts, in one proprietary application,
 
 modify the Software for internal use within that application,
 
@@ -23,9 +23,9 @@ You may not, under any circumstances:
 
 Redistribute, publish, sell, license, or sublicense the Software, in whole or in part.
 
-Use the Software to create, develop, or distribute a competing slider component, UI widget, or substantially similar product.
+Use the Software to create, develop, or distribute a competing slider component, UI, GUI, or TUI widget.
 
-Incorporate any portion of the Software into an open‑source project, including projects licensed under MIT, GPL, Apache, or similar licenses.
+Incorporate any portion of the Software into an open‑source project, including projects licensed under MIT, GPL, Apache, or similar licenses, for publishing or demonstration.
 
 Share the Software with contractors, clients, or third parties except as necessary to build Your own application.
 
@@ -46,6 +46,7 @@ may not be redistributed, published, or used to create a competing product.
 
 ## 4. Ownership
 The Software is licensed, not sold.
+
 The Author retains all rights, title, and interest in:
 
 the Software,
@@ -75,6 +76,8 @@ continued use constitutes copyright infringement.
 
 Termination does not require notice.
 
+Refunds will not be issued.
+
 ## 6. Updates and Support
 If included with Your purchase:
 
@@ -85,15 +88,13 @@ Support, if provided, is limited to reasonable assistance via email or written c
 The Author is not obligated to provide updates or support beyond what was explicitly offered.
 
 ## 7. Warranty Disclaimer
-The Software is provided “as is”, without warranty of any kind, express or implied, including but not limited to:
 
-merchantability,
-
-fitness for a particular purpose,
-
-non‑infringement.
-
-You assume all risk associated with using the Software.
+THE SOFTWARE IS PROVIDED “AS IS” WITHOUT WARRANTY OF ANY KIND.
+THE AUTHOR DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING
+BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR
+A PARTICULAR PURPOSE, AND NON‑INFRINGEMENT.
+THE ENTIRE RISK ARISING OUT OF THE USE OR PERFORMANCE OF THE
+SOFTWARE REMAINS WITH THE LICENSEE.
 
 ## 8. Limitation of Liability
 In no event shall the Author be liable for:
