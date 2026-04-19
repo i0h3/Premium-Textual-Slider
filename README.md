@@ -12,7 +12,6 @@ To acquire a commercial license, contact me by email or phone.
 The Premium Edition was engineered to address precision artifacts that appear when numeric spans exceed typical ranges. It incorporates an adaptive decimal system that scales cleanly into tens of billions, with discrete increments expected only at extremely large spans. This adaptive model enables up to **15 decimal places** of precision within rational domains, making the Premium Edition suitable for engineering, finance, scientific modeling, and other precision‑critical workflows.
 
 The Community Edition supports sufficiently high ranges for standard usage and provides all controls needed to reach typical values. It may require the popup input field for unconventional numeric targets, where the Premium Edition maintains smooth direct interaction.
-
 <br/>
 
 ## Precision & Behavior Comparison
