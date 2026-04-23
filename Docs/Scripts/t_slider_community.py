@@ -199,7 +199,20 @@ class Slider(Container): #{
         stepped = value // self.step * self.step
         return clamp(self.label_min + stepped, self.label_min, self.label_max) if offset != max_offset else self.label_max
     #}
+   
+    def posValCorrection(self): #{
+        if (1 - abs(self.posVal) < 0): #{
+            span_p_10 =  round(log10(self.span))
 
+            if (self.span > 100): #{
+                self.posVal //= (5 * 10**(span_p_10 - (2 - round(log10(self.step))))) if self.step < 1 else (10 * self.step)
+                self.posVal *= (5 * 10**(span_p_10 - (2 - round(log10(self.step))))) if self.step < 1 else (10 * self.step)
+            #}
+
+            self.posVal = round(self.posVal)
+        #}
+    #}
+    
     def on_mount(self): #{            
         self.value = self.label_min if self.label_min >= 0 or self.label_max <= 0 else 0
         self.posVal = self.value
