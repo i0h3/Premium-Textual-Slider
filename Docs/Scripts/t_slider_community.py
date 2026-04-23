@@ -266,8 +266,8 @@ class Slider(Container): #{
             self.val_input.remove()
         #}
 
-        if event.key in ("a", "ctrl+a") and self.has_focus_within: self.posVal = clamp(self.posVal - self.step * (10**(int(log10(self.span)) - 3) if self.span > 1000 else 10) / (10 if event.key == "ctrl+a" else 1), self.label_min, self.label_max)
-        if event.key in ("d", "ctrl+d") and self.has_focus_within: self.posVal = clamp(self.posVal + self.step * (10**(int(log10(self.span)) - 3) if self.span > 1000 else 10) / (10 if event.key == "ctrl+d" else 1), self.label_min, self.label_max)
+        if event.key in ("a", "ctrl+a") and self.has_focus_within: self.posVal = clamp(self.posVal - self.step * (10**(int(log10(self.density)) - 3) if self.span > 1000 else 10) / (10 if event.key == "ctrl+a" else 1), self.label_min, self.label_max)
+        if event.key in ("d", "ctrl+d") and self.has_focus_within: self.posVal = clamp(self.posVal + self.step * (10**(int(log10(self.density)) - 3) if self.span > 1000 else 10) / (10 if event.key == "ctrl+d" else 1), self.label_min, self.label_max)
     #}
 
     @on(Click, "#label")
