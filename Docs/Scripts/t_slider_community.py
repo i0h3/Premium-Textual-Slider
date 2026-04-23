@@ -249,6 +249,7 @@ class Slider(Container): #{
 
         # Convert offset → value using unified math
         self.posVal = self.value_from_offset(new_offset)
+        self.posValCorrection()
     #}
 
     def on_mouse_move(self, event: MouseMove) -> None: #{
@@ -263,6 +264,7 @@ class Slider(Container): #{
 
         # Convert offset → value using unified math
         self.posVal = self.value_from_offset(new_offset)
+        self.posValCorrection()
     #}
 
     def on_mouse_up(self) -> None: #{
