@@ -1,5 +1,5 @@
 # Premium-Textual-Slider
-A high‑precision slider widget built for Textual. The Community Edition supports up to 8 decimal places with multiple input controls for smooth interaction. The Premium Edition extends precision, customization, and control far beyond typical GUI sliders, enabling scientific, financial, and high‑resolution applications that exceed current TUI expectations.
+A high‑precision slider widget built for Textual. The Community Edition supports up to 8 decimal places with multiple input controls for smooth handling. The Premium Edition extends precision, customization, and control beyond generic GUI sliders, enabling scientific, financial, and high‑resolution applications.
 
 ## Licensing
 This component is offered under a dual‑license model:
@@ -8,10 +8,10 @@ This component is offered under a dual‑license model:
 
 To acquire a commercial license, contact me by email or phone.
 
-## Why Premium?
-The Premium Edition was engineered to address precision artifacts that appear when numeric spans exceed typical ranges. It incorporates an adaptive decimal system that scales cleanly into tens of billions, with discrete increments expected only at extremely large spans. This adaptive model enables up to **15 decimal places** of precision within rational domains, making the Premium Edition suitable for engineering, finance, scientific modeling, and other precision‑critical workflows.
+## Premium Benefits
+The Premium Edition was engineered to address precision artifacts that appear when numeric spans exceed typical ranges. It incorporates an adaptive decimal system that scales cleanly into tens of billions, with discrete increments expected only at extremely large spans. This adaptive model enables up to **15 decimal places** of precision within the span [-1, 1], making the Premium Edition suitable for engineering, finance, scientific modeling, and other high-precision workflows.
 
-The Community Edition supports sufficiently high ranges for standard usage and provides all controls needed to reach typical values. It may require the popup input field for unconventional numeric targets, where the Premium Edition remains consistent.
+The Community Edition supports sufficiently large ranges for typical use cases and provides all controls needed to reach expected values. It may require the popup input field for atypical numeric targets, where the Premium Edition operates seamlessly.
 <br/>
 
 ## Precision & Behavior Comparison
@@ -35,12 +35,17 @@ The Community Edition supports sufficiently high ranges for standard usage and p
 
 https://github.com/user-attachments/assets/b08e4ee2-405e-4043-a16a-1e06f2ccd008
 
+https://github.com/user-attachments/assets/72ac4d7f-3277-49e5-9b85-63c6b49c705e
+
+https://github.com/user-attachments/assets/40c7aa78-3ffd-478f-822d-6a2efd9ebd59
+
+https://github.com/user-attachments/assets/aa077b68-3ec5-47ec-9594-92343a74ef8c
+
 ## Example Usage
 
 <br/>
 <img width="199" height="28" alt="image" src="https://github.com/user-attachments/assets/600aefc4-ec29-4f99-af3d-ea43fe4b4740" />
 <br/>
-
 
 ***Community***
 <br/><br/>
